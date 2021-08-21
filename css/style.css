@@ -10,27 +10,23 @@
 /* HOME */
 
 header {
-  display: block;
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-color: rgba(0, 204, 255, 0.349);
-  width: 100%;
-  padding: 375px;
+  padding: 1.5rem;
+  background-color: #eaf4f7;
+  float: center;
 }
 
 h1{
-  font-size: 60px;
-  float: left;
+  font-size: 3rem;
+  padding-left: 7.25;
 }
 h2{
   text-align: center;
-  color: rgba(238, 94, 11, 0.836);
-  top: 20px;
+  font-size: 2.5;
 }
 
 
 h3 {
-  font-size: 16px;
+  font-size: 1rem;
   color: rgba(252, 113, 0, 0.89);
   text-align: center;
   text-emphasis-color: black;
@@ -38,37 +34,41 @@ h3 {
 
 h4{
   text-align: center;
-  font-size: 40px;
+  color: rgba(238, 94, 11, 0.836);
+  top: 1.25rem;
 }
 .navigation{
   display: flex;
   justify-content: center;
-  position: absolute;
-  top: 20px;
-  z-index: 1;
+  padding-left: 0%;
+}
+
+button {
+  background-color: rgba(238, 94, 11, 0.836);
 }
 
 .header-soc-media{
   display: flex;
-  justify-content: right;
-  right: 10%;
+  
 }
 
 .facebook {
-  position: absolute;
-  top: 15px;
-  left: 280px;
+  padding-top: 0.938rem;
+  padding-left: 17.5rem;
 }
 
 .youtube {
-  position: relative;
-  top: 15px;
-  left: 350px;
+  padding-top: 0.938rem;
+  padding-left: 19.5rem;
 }
 
 .header-menu {
   display: flex;
   list-style-type: none;
+}
+
+.header-menu ::after{
+  
 }
 
 .sub-nav{
@@ -110,7 +110,7 @@ h4{
 
 .search-bar button{
   padding: 25px 25px;
-  background-color: rgba(255, 136, 0, 0.815);
+  background-color: rgba(238, 94, 11, 0.836);
   border-radius: 2px;
   transition-duration: 0.4s;
   border: none;
@@ -145,7 +145,6 @@ h4{
 
 .home-boxes-describe {
   background-color: white;
-  color: rgba(238, 94, 11, 0.836);
   box-shadow: 0px 8px 16px 0px #0000000c;
   padding: auto;
   width: 200px;
@@ -154,7 +153,10 @@ h4{
   left: 50%;
   margin-left: auto;
   margin-top: -70px;
+}
 
+.home-boxes-describe span{
+  color: rgba(238, 94, 11, 0.836);
 }
 
 .col-weig-4{
@@ -167,7 +169,7 @@ h4{
 }
 /* počty studentů */
 .home-boxes > p{
-  font-size: 100px;
+  font-size: 6.25rem;
   display: flex;
   color: rgb(233, 117, 10);
 }
@@ -197,8 +199,15 @@ h4{
   padding-top: 15%;
 }
 
-
-
+/* Avaible couses*/
+.price-tag {
+  background-color: rgba(238, 94, 11, 0.836);
+  border-radius: 50%;
+  width: 3.75rem;
+  height: 2.813rem;
+  align-items: center;
+  display: flex;
+}
 
 .home-course-lectord {
   width: fit-content;
@@ -255,9 +264,10 @@ h4{
 .sponsor-logo {
   background-color: rgba(250, 112, 0, 0.959);
   display: flex;
-  height: 100px;
+  height: 6.25rem;
   padding: 4rem 7rem;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
+  margi
 }
 
 .sponsor-logo img{
@@ -349,4 +359,131 @@ footer p {
 
 .footer-copyright {
   color: aliceblue;
+}
+
+/* OUR COURSE PAGES*/
+
+.all-courses {
+  display: flex;
+}
+
+.single-des-box-eng :hover{
+  content: single-des-box-eng-after;
+
+}
+.single-des-box-eng-after{
+  background-color: rgb(87, 170, 248);
+  box-shadow: 0px 8px 16px 0px #00000017;
+  padding: auto;
+  color: rgba(0, 0, 0, 0);
+  font-size: 0.813rem;
+  display: flex;
+  border-right-style: 0.125rem;
+  border-bottom-style: none;
+  flex-direction: column;
+  width: 15.625rem;
+  height: 25rem;
+  align-items: stretch;
+}
+
+.single-des-box-des-after{
+  background-color: rgb(87, 170, 248);
+  box-shadow: 0px 8px 16px 0px #00000017;
+  padding: auto;
+  color: rgba(8, 51, 51, 0.486);
+  font-size: 0.813rem;
+  display: flex;
+  border-right-style: 0.125rem;
+  border-bottom-style: none;
+  flex-direction: column;
+  width: 15.625rem;
+  height: 25rem;
+}
+.single-des-box-bus-after{
+  background-color: rgb(87, 170, 248);
+  box-shadow: 0px 8px 16px 0px #00000017;
+  padding: auto;
+  color: rgba(8, 51, 51, 0.486);
+  font-size: 0.813rem;
+  display: flex;
+  border-right-style: 0.125rem;
+  border-bottom-style: none;
+  flex-direction: column;
+  width: 15.625rem;
+  height: 25rem;
+}
+
+.single-des-box-php-after{
+  background-color: rgb(87, 170, 248);
+  box-shadow: 0px 8px 16px 0px #00000017;
+  padding: auto;
+  color: rgba(8, 51, 51, 0.486);
+  font-size: 0.813rem;
+  display: flex;
+  border-right-style: 0.125rem;
+  border-bottom-style: none;
+  flex-direction: column;
+  width: 15.625rem;
+  height: 25rem;
+}
+.single-des-box-mar-after{
+  background-color: rgb(87, 170, 248);
+  box-shadow: 0px 8px 16px 0px #00000017;
+  padding: auto;
+  color: rgba(8, 51, 51, 0.486);
+  font-size: 0.813rem;
+  display: flex;
+  border-right-style: 0.125rem;
+  border-bottom-style: none;
+  flex-direction: column;
+  width: 15.625rem;
+  height: 25rem;
+}
+.single-des-box-film-after{
+  background-color: rgb(87, 170, 248);
+  box-shadow: 0px 8px 16px 0px #00000017;
+  padding: auto;
+  color: rgba(8, 51, 51, 0.486);
+  font-size: 0.813rem;
+  display: flex;
+  border-right-style: 0.125rem;
+  border-bottom-style: none;
+  flex-direction: column;
+  padding-right: 15.625rem;
+  height: 25rem;
+}
+.single-des-box-med-after{
+  background-color: rgb(87, 170, 248);
+  box-shadow: 0px 8px 16px 0px #00000017;
+  padding: auto;
+  color: rgba(8, 51, 51, 0.486);
+  font-size: 0.813rem;
+  display: flex;
+  border-right-style: 0.125rem;
+  border-bottom-style: none;
+  flex-direction: column;
+  padding-right: 15.625rem;
+  height: 25rem;
+}
+.single-des-box-ui-after{
+  background-color: rgb(87, 170, 248);
+  box-shadow: 0px 8px 16px 0px #00000017;
+  padding: auto;
+  color: rgba(8, 51, 51, 0.486);
+  font-size: 0.813rem;
+  display: flex;
+  border-right-style: 0.125rem;
+  border-bottom-style: none;
+  flex-direction: column;
+  padding-right: 15.625rem;
+  height: 25rem;
+}
+
+.price-tag-circle {
+  background-color: rgba(238, 94, 11, 0.836);
+  border-radius: 50%;
+  width: 2.813rem;
+  height: 2.813rem;
+  align-items: center;
+  display: flex;
 }

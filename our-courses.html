@@ -1,16 +1,716 @@
 <!DOCTYPE html>
-<html lang="cs">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="author" content="Huyen Tran" />
-        <title>
-            About Us
-        </title>
-    </head>
-    <body>
-        <header>
-            <nav>
-            </nav>    
-        </header>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Huyen Tran" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home page</title>
+  </head>
+
+  <body>
+    <header>
+      <!--záhlaví - odkazy na jednotlivé stránky-->
+      <nav class="navigation">
+        <a href="home.html">
+        <img src="icon/graduated-hat.png" alt="logo">
+        <b>Edu</b>Plus
+        </a>
+        <ul class="header-menu">
+        <li class="menu-item">
+          <a href="#" class="sub-navigation">Home <i class="angle-down"></i></a>
+
+          <ul class="sub-nav">
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="our-courses.html">Our Courses</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="event-details.html">Ivent Details</a></li>
+          </ul>
+
+        </li>
+        <li class="menu-item">
+          <a href="#" class="sub-navigation">Courses <i class="angle-down"></i></a>
+
+          <ul class="sub-nav">
+          <li><a href="">Course</a></li>
+          <li><a href="">Course List</a></li>
+          <li><a href="">Course Details</a></li>
+          </ul>
+
+          </li>
+          <li><a href="#" class="sub-navigation">Events <i class="angle-down"></i></a></li>
+          <li><a href="#" class="sub-navigation">Pages <i class="angle-down"></i></a></li>
+          <li><a href="#" class="sub-navigation">Blog <i class="angle-down"></i></a></li>
+          <li><a href="#" class="sub-navigation">Contact <i class="angle-down"></i></a></li>
+          </ul>
+      </nav>
+
+      <nav>
+        <div class="header-soc-media">
+            <!-- odkazy na facebook a youtube -->
+        <div class="facebook">
+          <a href="https://www.facebook.com"> Facebook</a>
+        </div>
+
+        <div class="youtube">
+          <a href="https://www.youtube.com/"> YouTube</a>
+        </div>
+        
+        <div class="sign-in">
+          <p>Sing In</p>
+        </div>
+
+        <div class="bar-icon">
+          <img src="icon/bar.png" alt="">
+        </div>
+        </div>
+      </nav>
+  
+      <img src="Image/header-student.jpeg">
+      <div class="">
+        <h1>Our Courses</h1>
+        <p>Home > Courses</p>
+      </div>
+    </header>
+
+    <main>
+      
+      <!--   SECTION POPULAR COURSE                  -->
+      <section>
+        <div>
+          <div>
+            <ul id="courses-cards__menu">
+              <li>Show all</li>
+              <li>Design</li>
+              <li class="open">Computer</li>
+              <li>Development</li>
+              <li>Medical</li>
+              <li>Photography</li>
+              <li>Marketing</li>
+              <li>Driving</li>
+              <li>Business</li>
+            </ul>
+            <!-- section  Avaible Course -->
+            <div class="all-courses">
+              <div class="row">
+                <div class="col-weig-4">
+                  <div class="single-des-box-eng">
+                    <div class="icon"><img src="Image/oxford-dictionary.jpeg" width="250"></div>
+                    <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                    <div class="price-tag-circle"><p>$59</p></div>
+                    <button>ENGLISH</button>
+                    <div class="star-rating">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star-half"></span>
+                    </div>
+                    <h3>
+                      <a href="#">Best Course For Learning English Courses </a>
+                    </h3>
+                    <div>
+                      <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                      <p><img src="icon/clock.png" alt=""> 36hr</p>
+                      <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-weig-4">
+                  <div class="single-des-box-eng-after">
+                    <button>ENGLISH</button>
+                    <div class="star-rating">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star-half"></span>
+                    </div>
+                    <h3>
+                      <a href="#">Best Course For Learning English Courses </a>
+                    </h3>
+                    <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                    <div class="price-tag-circle-white"><p>$59</p></div>
+                    <p>Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button>GET ENROLLED<i class="as fa-long-arrow-right"></i></button>
+                    <div>
+                      <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                      <p><img src="icon/clock.png" alt=""> 36hr</p>
+                      <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all-courses">
+                <div class="row">
+                  <div class="col-weig-4">
+                    <div class="single-des-box-des">
+                      <div class="icon"><img src="Image/mobile-devices.png" width="250"></div>
+                      <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                      <div class="price-tag-circle"><p>$59</p></div>
+                      <button>DESIGN</button>
+                      <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-half"></span>
+                      </div>
+                      <h3>
+                        <a href="#">Introduces About Graphics Design For Beginners </a>
+                      </h3>
+                      <div>
+                        <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                        <p><img src="icon/clock.png" alt=""> 36hr</p>
+                        <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-weig-4">
+                  <div class="single-des-box-des-after">
+                    <button>DESIGN</button>
+                    <div class="star-rating">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star-half"></span>
+                    </div>
+                    <h3>
+                      <a href="#">Introduces About Graphics Design For Beginners </a>
+                    </h3>
+                    <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                    <div class="price-tag-circle-white"><p>$59</p></div>
+                    <p>Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button>GET ENROLLED<i class="as fa-long-arrow-right"></i></button>
+                    <div>
+                      <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                      <p><img src="icon/clock.png" alt=""> 36hr</p>
+                      <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all-courses">
+                <div class="row">
+                  <div class="col-weig-4">
+                    <div class="single-des-box-bus">
+                      <div class="icon"><img src="Image/teamwork.jpeg" width="250"></div>
+                      <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                      <div class="price-tag-circle"><p>$59</p></div>
+                      <button>BUSINESS</button>
+                      <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-half"></span>
+                      </div>
+                      <h3>
+                        <a href="#">How To Improve Business Studies For Beginners </a>
+                      </h3>
+                      <div>
+                        <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                        <p><img src="icon/clock.png" alt=""> 36hr</p>
+                        <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-weig-4">
+                  <div class="single-des-box-bus-after">
+                    <button>BUSINESS</button>
+                    <div class="star-rating">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star-half"></span>
+                    </div>
+                    <h3>
+                      <a href="#">How To Improve Business Studies For Beginners </a>
+                    </h3>
+                    <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                    <div class="price-tag-circle-white"><p>$59</p></div>
+                    <p>Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button>GET ENROLLED<i class="as fa-long-arrow-right"></i></button>
+                    <div>
+                      <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                      <p><img src="icon/clock.png" alt=""> 36hr</p>
+                      <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="all-courses">
+                <div class="row">
+                  <div class="col-weig-4">
+                    <div class="single-des-box-php">
+                      <div class="icon"><img src="Image/web-development.jpeg" width="250"></div>
+                      <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                      <div class="price-tag-circle"><p>$59</p></div>
+                      <button>PHP</button>
+                      <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-half"></span>
+                      </div>
+                      <h3>
+                        <a href="#">Best Courses For Learning English Courses</a>
+                      </h3>
+                      <div>
+                        <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                        <p><img src="icon/clock.png" alt=""> 36hr</p>
+                        <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-weig-4">
+                  <div class="single-des-box-php-after">
+                    <button>PHP</button>
+                    <div class="star-rating">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star-half"></span>
+                    </div>
+                    <h3>
+                      <a href="#">Best Courses For Learning English Courses</a>
+                    </h3>
+                    <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                    <div class="price-tag-circle-white"><p>$59</p></div>
+                    <p>Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button>GET ENROLLED<i class="as fa-long-arrow-right"></i></button>
+                    <div>
+                      <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                      <p><img src="icon/clock.png" alt=""> 36hr</p>
+                      <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="all-courses">
+                <div class="row">
+                  <div class="col-weig-4">
+                    <div class="single-des-box-mar">
+                      <div class="icon"><img src="Image/digital-marketing.jpeg" width="250"></div>
+                      <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                      <div class="price-tag-circle"><p>$59</p></div>
+                      <button>MARKETING</button>
+                      <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-half"></span>
+                      </div>
+                      <h3>
+                        <a href="#">Best Courses For Learning Marketing Courses </a>
+                      </h3>
+                      <div>
+                        <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                        <p><img src="icon/clock.png" alt=""> 36hr</p>
+                        <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-weig-4">
+                  <div class="single-des-box-mar-after">
+                    <button>MARKETING</button>
+                    <div class="star-rating">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star-half"></span>
+                    </div>
+                    <h3>
+                      <a href="#">Best Courses For Learning Marketing Course </a>
+                    </h3>
+                    <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                    <div class="price-tag-circle-white"><p>$59</p></div>
+                    <p>Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button>GET ENROLLED<i class="as fa-long-arrow-right"></i></button>
+                    <div>
+                      <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                      <p><img src="icon/clock.png" alt=""> 36hr</p>
+                      <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="all-courses">
+                <div class="row">
+                  <div class="col-weig-4">
+                    <div class="single-des-box-film">
+                      <div class="icon"><img src="Image/photography.png" width="250"></div>
+                      <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                      <div class="price-tag-circle"><p>$59</p></div>
+                      <button>FILMS</button>
+                      <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-half"></span>
+                      </div>
+                      <h3>
+                        <a href="#">Introduces About Movie & Photography For Beginners </a>
+                      </h3>
+                      <div>
+                        <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                        <p><img src="icon/clock.png" alt=""> 36hr</p>
+                        <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-weig-4">
+                  <div class="single-des-box-film-after">
+                    <button>FILMS</button>
+                    <div class="star-rating">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star-half"></span>
+                    </div>
+                    <h3>
+                      <a href="#">Introduces About Movie & Photography For Beginners </a>
+                    </h3>
+                    <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                    <div class="price-tag-circle-white"><p>$59</p></div>
+                    <p>Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button>GET ENROLLED<i class="as fa-long-arrow-right"></i></button>
+                    <div>
+                      <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                      <p><img src="icon/clock.png" alt=""> 36hr</p>
+                      <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="all-courses">
+                <div class="row">
+                  <div class="col-weig-4">
+                    <div class="single-des-box-med">
+                      <div class="icon"><img src="Image/nurse.jpeg" width="250"></div>
+                      <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                      <div class="price-tag-circle"><p>$59</p></div>
+                      <button>MEDICAL</button>
+                      <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-half"></span>
+                      </div>
+                      <h3>
+                        <a href="#">How To Improve Medical Studies For Beginners </a>
+                      </h3>
+                      <div>
+                        <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                        <p><img src="icon/clock.png" alt=""> 36hr</p>
+                        <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-weig-4">
+                  <div class="single-des-box-med-after">
+                    <button>MEDICAL</button>
+                    <div class="star-rating">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star-half"></span>
+                    </div>
+                    <h3>
+                      <a href="#">How To Improve Medical Studies For Beginners </a>
+                    </h3>
+                    <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                    <div class="price-tag-circle-white"><p>$59</p></div>
+                    <p>Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button>GET ENROLLED<i class="as fa-long-arrow-right"></i></button>
+                    <div>
+                      <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                      <p><img src="icon/clock.png" alt=""> 36hr</p>
+                      <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="all-courses">
+                <div class="row">
+                  <div class="col-weig-4">
+                    <div class="single-des-box-ui">
+                      <div class="icon"><img src="Image/mobile-devices.png" width="250"></div>
+                      <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                      <div class="price-tag-circle"><p>$59</p></div>
+                      <button>APPS UI</button>
+                      <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-half"></span>
+                      </div>
+                      <h3>
+                        <a href="#">Learning Hoe To Improve Mobile UI Design </a>
+                      </h3>
+                      <div>
+                        <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                        <p><img src="icon/clock.png" alt=""> 36hr</p>
+                        <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-weig-4">
+                  <div class="single-des-box-ui-after">
+                    <button>APPS UI</button>
+                    <div class="star-rating">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star-half"></span>
+                    </div>
+                    <h3>
+                      <a href="#">Learning Hoe To Improve Mobile UI Design </a>
+                    </h3>
+                    <div class="home-course-lector"><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"><p>Warner</p></div>
+                    <div class="price-tag-circle-white"><p>$59</p></div>
+                    <p>Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button>GET ENROLLED<i class="as fa-long-arrow-right"></i></button>
+                    <div>
+                      <p><img src="icon/orange-users.png" alt="icon"> 25</p>
+                      <p><img src="icon/clock.png" alt=""> 36hr</p>
+                      <p><img src="icon/comments.png" alt=""> 2.5k</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>        
+          </div>
+        </div>
+      </section>
+
+      <section>
+
+          <!--SECTION TEAMS MEMBER-->
+
+        <div class="instructors-section">
+          <div>
+            <h2>• • • Team Member • • • </h2>
+            <h4>Expert Instructors</h4>
+              <div class="row">
+              <div class="col-weig-4">
+                  
+                <div class="single-des-box">
+                <div class="icon"><img src="Image/selfie.jpeg" alt="picture" width="250px">
+                  <span></span>
+                </div>
+
+                <h3>
+                  <a href="empty-page.html">Somalia D Silva </a>
+                </h3>
+                <p>Math Teacher</p>
+                <p><img src="icon/orange-book.png" alt=""> 750+ Courses</p>
+                </div>
+
+                <div class="single-des-box">
+                <div class="icon"><img src="Image/profile-photo-2.jpeg" alt="picture" width="250px">
+                  <span></span>
+                </div>
+                <h3>
+                  <a href="empty-page.html">David D Warner </a>
+                </h3>
+                <p>English Teacher</p>
+                <p><img src="icon/orange-book.png" alt=""> 3800+ Courses</p>
+                </div>
+
+                <div class="single-des-box">
+                <div class="icon"><img src="Image/selfie.jpeg" alt="picture" width="250px">
+                  <span></span>
+                </div>
+                <h3>
+                  <a href="empty-page.html">Xavi Toni Crusse </a>
+                </h3>
+                <p>Computer Teacher</p>
+                <p><img src="icon/orange-book.png" alt=""> 632+ Courses</p>
+                </div>
+
+                <div class="single-des-box">
+                <div class="icon"><img src="Image/profile-photo-2.jpeg" alt="picture" width="250px>
+                  <span></span>
+                </div>
+                <h3>
+                  <a href="empty-page.html">Shaine Watson </a>
+                </h3>
+                <p>Web Designer</p>
+                <p><img src="icon/orange-book.png" alt=""> 950+ Courses</p>
+                </div>
+              </div>
+              </div>
+            </div>
+      </div>
+      </section>
+
+      <section>
+        <div class="home-artices-section">
+          <h4>• • • Artices & Tipes • • • </h4>
+          <h2>Latest News & Blog</h2>
+          <div class="col-weig-4">
+            <div class="single-des-box">
+              <div class="icon"><img src="Image/oxford-dictionary.jpeg" alt="" width="250">
+              </div>
+              <p><img src="icon/calendar.png" alt="calendar"> 25 NOV 2020</p>
+              <p><img src="icon/comments.png" alt=""> COM(30)</p>
+              <h3>
+                <a href="empty-page.html">Learning Resources In Challenes Times Online Workshops </a>
+              </h3>
+              <p><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"> David Simala</p>
+              <button></button>
+                    
+            </div>
+
+            <div class="single-des-box">
+              <div class="icon"><img src="Image/digital-marketing.jpeg" alt="" width="250">
+              </div>
+              <p><img src="icon/calendar.png" alt="calendar"> 25 NOV 2020</p>
+              <p><img src="icon/comments.png" alt=""> COM(30)</p>
+              <h3>
+                <a href="empty-page.html">Blah blah Blah </a>
+              </h3>
+              <p><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"> David Simala</p>
+              <button></button>
+                    
+            </div>
+
+            <div class="single-des-box">
+              <div class="icon"><img src="Image/product-ingineering.jpeg" alt="" width="250">
+              </div>
+              <p><img src="icon/calendar.png" alt="calendar"> 25 NOV 2020</p>
+              <p><img src="icon/comments.png" alt=""> COM(30)</p>
+              <h3>
+                <a href="empty-page.html">Smash Podcast Episode With Someone What Is Online Privacy</a>
+              </h3>
+              <p><img src="Image/dental-care.png" alt="profile-photo" style="border-radius: 50%;" width="30"> David Simala</p>
+              <button></button>
+                    
+            </div>
+          </div>
+        </div>
+
+
+            </div>
+          </div>
+  
+        <!--Sekce pred toto-->
+        </div>
+      </section>
+      <section class="sponsor-logo">
+        <img src="icon/mountain-ad.png" alt="mountain logo" width="40px" height="50px">
+        <img src="icon/circle-ad.png" alt="cirlcle logo" width="40px" height="50px">
+        <img src="icon/globe-ad.png" alt="globe logo" width="40px" height="50px">
+        <img src="icon/paper-ad.png" alt="paper logo" width="40px" height="50px">
+        <img src="icon/sumit-ad.png" alt="sumit logo" width="40px" height="50px">
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-body">
+        <div class="footer-home">
+          <img src="icon/white-hat.png" alt="" width="35px">
+          <span><b>Edu</b>Plus</span>
+
+          <div class="footer_soc facebook">
+            <i class="fab fa-facebook-f"></i> Facebook
+          </div>
+          <div class="footer_soc twitter">
+            <i class="fab fa-twitter"></i> Twitter
+          </div>
+          <div class="footer_soc youtube">
+            <i class="fab fa-youtube"></i> Youtube
+          </div>
+          <div class="footer_soc instagram">
+            <i class="fab fa-instagram"></i> Instagram
+          </div>
+        </div>
+      
+      
+        <div class="footer-sec">
+          <h3>Our Courses</h3>
+          <ul>
+            <li>Web Development</li>
+            <li>Business Studies</li>
+            <li>Computer Engineering</li>
+            <li>English Learning</li>
+            <li>Graphics Design</li>
+          </ul>
+          <ul>
+            <li>Colour Combinitions</li>
+            <li>Software Development</li>
+            <li>Photography</li>
+            <li>Advance WordPress</li>
+            <li>Basic PSD To HTML</li>
+          </ul>
+          <h3>Company</h3>
+          <ul>
+            <li>About Eduket</li>
+            <li>Meet Advisors</li>
+            <li>Join A Career</li>
+            <li>Latest Courses</li>
+            <li>Newsletters</li>
+          </ul>
+          <h3>Newsletter</h3>
+          <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+          <div>
+            <input placeholder="Enter Yout Email">
+            <button></button>
+          </div>
+
+          <div class="footer-copyright">
+            <p>Copyright &copy; 2020 <span><b>Edu</b>Plus</span> All Rights Reserved.</p>
+          </div>
+        </div>
+      
+    </footer>
+  </body>
 </html>
