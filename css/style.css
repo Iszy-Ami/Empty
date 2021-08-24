@@ -1,489 +1,180 @@
-
-
 * {
-  color: black;
+  color: rgba(0, 0, 0, 0.774);
+  position: relative;
+  text-decoration: none;
+}
+
+body {
+  min-width: 20rem;
+  position: relative;
+  overflow-y: scroll;
+  background-color: whitesmoke;
+  font-style: normal;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 0;
+  font-size: 0.875rem;
+  font-stretch: normal;
+  text-align: center;
+}
+
+b, body, em, form, h1, h2, h3, h4, h5, h6, hr, i, label, li, ol, p, strong, ul {
   margin: 0;
+  margin-top: 0rem;
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+  padding: 0;
+  border: 0;
 }
 
-/* HOME */
+*, :after, :before {
+  box-sizing: border-box;
+}
 
+div {
+  display: block;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+/*---HOME HEADER----------*/
 header {
-  padding: 1.5rem;
   background-color: #eaf4f7;
-  float: center;
+  padding-bottom: 200px;
 }
 
-h1{
-  font-size: 3rem;
-  padding-left: 7.25;
-}
-h2{
-  text-align: center;
-  font-size: 2.5;
-}
-
-
-h3 {
-  font-size: 1rem;
-  color: rgba(252, 113, 0, 0.89);
-  text-align: center;
-  text-emphasis-color: black;
-}
-
-h4{
-  text-align: center;
-  color: rgba(238, 94, 11, 0.836);
-  top: 1.25rem;
-}
-.navigation{
-  display: flex;
-  justify-content: center;
-  padding-left: 0%;
-}
-
-button {
-  background-color: rgba(238, 94, 11, 0.836);
-}
-
-.header-soc-media{
-  display: flex;
-  
-}
-
-.facebook {
-  padding-top: 0.938rem;
-  padding-left: 17.5rem;
-}
-
-.youtube {
-  padding-top: 0.938rem;
-  padding-left: 19.5rem;
-}
-
-.header-menu {
-  display: flex;
+ul {
   list-style-type: none;
+  text-align: left;
 }
 
-.header-menu ::after{
-  
-}
-
-.sub-nav{
-  list-style-type: none;
+.navigation {
+  display: flex;
+  text-align: inherit;
 }
 
 .header-soc-media {
-  position: absolute;
-  top: 20px;
-  right: 50px;
+  display: flex;
+}
+
+.header-menu {
+  display: inherit;
+  text-align: center;
+}
+
+.angle-down-btn {
+  display: flex;
+  color: (0, 0, 0, 0.774);
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: 0.725rem;
+
+}
+
+h1 {
+  font-size:  3rem;
+  padding-top: 2rem;
+}
+
+h2 {}
+
+h3 {}
+
+h4 {
+  font-size: inherit;
+  text-align: inherit;
+  color: rgba(238, 94, 11, 0.836);
+  top: 1.25rem;
+}
+
+.home-hat{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  display: flex;
+}
+
+.home-hat >a {
+  text-align: center;
   padding: auto;
-  display: inline-block;
 }
 
-.facebook a{
-  color: blue;
+.home-rel-adress {
+  font-size: 40px;
+  text-align: center;
+  margin: auto;
 }
 
-.youtube a{
-  color: red;
+.header-content > h4{
+  text-align: 7.25rem;
 }
 
-.sign-in {
-  color: aqua;
-}
-
-.bar-icon {
-  background-color: transparent;
-}
-
-.search-bar{
-  background-color: white;
-  padding: 5px;
-}
-
-.search-bar input{
+.search-bar {
+  background-color: whitesmoke;
   border: none;
+
+}
+.search {
+  background-color: whitesmoke;
+  border: none;
+  padding: 18px 150px;
 }
 
-.search-bar button{
-  padding: 25px 25px;
+.submit {
+  border: none;
+  padding: 14px 14px;
   background-color: rgba(238, 94, 11, 0.836);
-  border-radius: 2px;
-  transition-duration: 0.4s;
-  border: none;
 }
 
 .search-bar button:hover{
   background-color: rgba(255, 136, 0, 0.979);
 }
 
-.search-bar button:active {
-  background-color: rgba(255, 136, 0, 0.979);
-  transform: translateY(4px);
+.fa-search {
+  color: whitesmoke;
+}
+
+.support {
+  display: flex;
 }
 
 .home-boxes {
   top: 10px;
   right: 10px;
-  text-align: center;
   display: flex;
   flex-direction: row;
-  font-size: large;
+  margin: auto;
+  display: flex;
 }
 
-.home-boxes-describe img{
+.home-boxes-describe {
+  background-color: whitesmoke;
+  box-shadow: 0px 8px 16px 0px #0000000c;;
+  padding: auto;
+  width: 150px;
+  height: 80px;
+  top: 50%;
+  left: 25%;
+  margin-left: 20px;
+  margin-top: -70px;
+}
+.home-boxes-describe > img{
   height: 70%;
   width: auto;
-  display: flexbox;
-  left: 250%;
   top: 50%;
   justify-content: center;
 }
 
-.home-boxes-describe {
-  background-color: white;
-  box-shadow: 0px 8px 16px 0px #0000000c;
-  padding: auto;
-  width: 200px;
-  height: 100px;
-  top: 50%;
-  left: 50%;
-  margin-left: auto;
-  margin-top: -70px;
-}
-
-.home-boxes-describe span{
+.home-boxes-describe  b{
   color: rgba(238, 94, 11, 0.836);
+  font-size: 20px;
+  text-align: center;
+  padding: auto;
 }
 
 .col-weig-4{
   display: flex;
   flex-wrap: wrap;
-}
-
-.col-weig-4 :hover {
-  background-color: gainsboro;
-}
-/* počty studentů */
-.home-boxes > p{
-  font-size: 6.25rem;
-  display: flex;
-  color: rgb(233, 117, 10);
-}
-
-/* popisy */
-.home-boxes p+p{
-  color: rgba(8, 51, 51, 0.486);
-}
-
-.single-des-box {
-  background-color: white;
-  box-shadow: 0px 8px 16px 0px #00000017;
-  padding: auto;
-  color: rgba(8, 51, 51, 0.486);
-  font-size: 13px;
-  display: flex;
-  border-right-style: 2px;
-  border-bottom-style: none;
-  flex-direction: column;
-  width: 250px;
-  height: 400px;
-  align-items: stretch;
-}
-
-.single-des-box h3{
-  font-size: 15px;
-  padding-top: 15%;
-}
-
-/* Avaible couses*/
-.price-tag {
-  background-color: rgba(238, 94, 11, 0.836);
-  border-radius: 50%;
-  width: 3.75rem;
-  height: 2.813rem;
-  align-items: center;
-  display: flex;
-}
-
-.home-course-lectord {
-  width: fit-content;
-  
-}
-
-/* Popular courses*/
-
-.home-course-section {
-  background-color: rgba(8, 30, 70, 0.945);
-}
-
-.row {
-  display: flex;
-  text-align: center;
-
-}
-
-.home-course-section button {
-  background-color: rgba(18, 45, 95, 0.945);
-  color: rgb(0, 140, 255);
-  border: rgb(0, 140, 255);
-  padding: 27px 45px;
-  font-size: 13px;
-  text-align: left;
-  transition: 0.5s;
-}
-
-.home-course-section button:hover{
-  background-color: rgba(38, 72, 134, 0.603);
-}
-
-
-
-
-/* PHOTO & ALBUM*/
-
-.home-photo-section{
-  background-color: whitesmoke;
-}
-
-.home-photo-name {
-  text-align: center;
-  list-style-type: none;
-
-}
-
-
-.home-instructors-section{
-  background-color: transparent;
-}
-
-/* Advertisment   NESAHAT UŽ JE PERFEKTNÍ*/
-.sponsor-logo {
-  background-color: rgba(250, 112, 0, 0.959);
-  display: flex;
-  height: 6.25rem;
-  padding: 4rem 7rem;
-  padding-bottom: 1.25rem;
-  margi
-}
-
-.sponsor-logo img{
-  max-height: 50%;
-  width: auto;
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-footer {
-  background-color: rgba(19, 46, 37, 0.945);
-  color: whitesmoke;
-}
-
-.footer-soc{
-  color: aliceblue;
-}
-
-footer p {
-  color: aliceblue;
-}
-
-.footer-sec{
-  display: flex;
-  
-}
-
-.footer-sec h3{
-  color: whitesmoke;
-}
-
-
-.footer-sec li{
-  color: mintcream;
-  list-style: none;
-  font-size: 15px;
-}
-
-.footer-body{
-  padding: 4rem 7rem;
-  height: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  border-bottom: 1px solid rgb(29, 48, 63);
-  width: fit-content;
-  margin: 0;
-  background-position: left top;
-}
-.footer-home {
-  display: flex;
-  align-items: center;
-}
-
-.footer-home span {
-  color: white;
-  font-size: 35px;
-  padding-left: 8px;
-}
-
-.footer-home span b {
-  color: white;
-}
-
-.footer-bodyr>*:hover {
-  border-bottom: 2px solid rgb(234, 88, 34);
-  margin-bottom: -1px;
-}
-.footer_soc.facebook ::after {
-  background-color: rgb(23, 113, 230);
-  left: 250px;
-}
-.footer_soc.twitter::after {
-  background-color: rgb(29, 161, 242);
-  left: 300px;
-}
-
-.footer__socials.youtube::after {
-  background-color: red;
-  left: 350px;
-}
-
-.footer__socials.instagram::after {
-  background-color: rgb(222, 14, 136);
-  left: 400px;
-}
-
-.footer-copyright {
-  color: aliceblue;
-}
-
-/* OUR COURSE PAGES*/
-
-.all-courses {
-  display: flex;
-}
-
-.single-des-box-eng :hover{
-  content: single-des-box-eng-after;
-
-}
-.single-des-box-eng-after{
-  background-color: rgb(87, 170, 248);
-  box-shadow: 0px 8px 16px 0px #00000017;
-  padding: auto;
-  color: rgba(0, 0, 0, 0);
-  font-size: 0.813rem;
-  display: flex;
-  border-right-style: 0.125rem;
-  border-bottom-style: none;
-  flex-direction: column;
-  width: 15.625rem;
-  height: 25rem;
-  align-items: stretch;
-}
-
-.single-des-box-des-after{
-  background-color: rgb(87, 170, 248);
-  box-shadow: 0px 8px 16px 0px #00000017;
-  padding: auto;
-  color: rgba(8, 51, 51, 0.486);
-  font-size: 0.813rem;
-  display: flex;
-  border-right-style: 0.125rem;
-  border-bottom-style: none;
-  flex-direction: column;
-  width: 15.625rem;
-  height: 25rem;
-}
-.single-des-box-bus-after{
-  background-color: rgb(87, 170, 248);
-  box-shadow: 0px 8px 16px 0px #00000017;
-  padding: auto;
-  color: rgba(8, 51, 51, 0.486);
-  font-size: 0.813rem;
-  display: flex;
-  border-right-style: 0.125rem;
-  border-bottom-style: none;
-  flex-direction: column;
-  width: 15.625rem;
-  height: 25rem;
-}
-
-.single-des-box-php-after{
-  background-color: rgb(87, 170, 248);
-  box-shadow: 0px 8px 16px 0px #00000017;
-  padding: auto;
-  color: rgba(8, 51, 51, 0.486);
-  font-size: 0.813rem;
-  display: flex;
-  border-right-style: 0.125rem;
-  border-bottom-style: none;
-  flex-direction: column;
-  width: 15.625rem;
-  height: 25rem;
-}
-.single-des-box-mar-after{
-  background-color: rgb(87, 170, 248);
-  box-shadow: 0px 8px 16px 0px #00000017;
-  padding: auto;
-  color: rgba(8, 51, 51, 0.486);
-  font-size: 0.813rem;
-  display: flex;
-  border-right-style: 0.125rem;
-  border-bottom-style: none;
-  flex-direction: column;
-  width: 15.625rem;
-  height: 25rem;
-}
-.single-des-box-film-after{
-  background-color: rgb(87, 170, 248);
-  box-shadow: 0px 8px 16px 0px #00000017;
-  padding: auto;
-  color: rgba(8, 51, 51, 0.486);
-  font-size: 0.813rem;
-  display: flex;
-  border-right-style: 0.125rem;
-  border-bottom-style: none;
-  flex-direction: column;
-  padding-right: 15.625rem;
-  height: 25rem;
-}
-.single-des-box-med-after{
-  background-color: rgb(87, 170, 248);
-  box-shadow: 0px 8px 16px 0px #00000017;
-  padding: auto;
-  color: rgba(8, 51, 51, 0.486);
-  font-size: 0.813rem;
-  display: flex;
-  border-right-style: 0.125rem;
-  border-bottom-style: none;
-  flex-direction: column;
-  padding-right: 15.625rem;
-  height: 25rem;
-}
-.single-des-box-ui-after{
-  background-color: rgb(87, 170, 248);
-  box-shadow: 0px 8px 16px 0px #00000017;
-  padding: auto;
-  color: rgba(8, 51, 51, 0.486);
-  font-size: 0.813rem;
-  display: flex;
-  border-right-style: 0.125rem;
-  border-bottom-style: none;
-  flex-direction: column;
-  padding-right: 15.625rem;
-  height: 25rem;
-}
-
-.price-tag-circle {
-  background-color: rgba(238, 94, 11, 0.836);
-  border-radius: 50%;
-  width: 2.813rem;
-  height: 2.813rem;
-  align-items: center;
-  display: flex;
 }

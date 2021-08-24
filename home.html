@@ -12,39 +12,37 @@
     <header>
 
       <!--záhlaví - odkazy na jednotlivé stránky-->
-      <div>
+      <div class="header-content">
         <nav class="navigation">
-        <a href="home.html">
-          <img src="icon/graduated-hat.png" alt="logo">
-          <b>Edu</b>Plus
-        </a>
-          <ul class="header-menu">
-          <li class="menu-item">
-            <a href="#" class="sub-navigation">Home <i class="angle-down"></i></a>
-
-            <ul class="sub-nav">
-              <li><a href="about-us.html">About Us</a></li>
-              <li><a href="our-courses.html">Our Courses</a></li>
-              <li><a href="faq.html">FAQ</a></li>
-              <li><a href="event-details.html">Ivent Details</a></li>
-            </ul>
-
-          </li>
-          <li class="menu-item">
-            <a href="#" class="sub-navigation">Courses <i class="angle-down"></i></a>
-
-            <ul class="sub-nav">
-              <li><a href="">Course</a></li>
-              <li><a href="">Course List</a></li>
-              <li><a href="">Course Details</a></li>
-            </ul>
-
-          </li>
-          <li><a href="#" class="sub-navigation">Events <i class="angle-down"></i></a></li>
-          <li><a href="#" class="sub-navigation">Pages <i class="angle-down"></i></a></li>
-          <li><a href="#" class="sub-navigation">Blog <i class="angle-down"></i></a></li>
-          <li><a href="#" class="sub-navigation">Contact <i class="angle-down"></i></a></li>
-          </ul>
+          <div class="home-hat">
+            <a href="home.html" class="home-rel-adress">
+              <img src="icon/graduated-hat.png" alt="logo">
+              <b>Edu</b>Plus
+            </a>
+          </div>
+          <div class="header-menu">
+            <button class="angle-down-btn">
+              <a href="#" class="sub-navigation">Home <i class="fa fa-angle-down"></i></a>
+            </button>
+              <ul class="sub-nav">
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="our-courses.html">Our Courses</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="event-details.html">Ivent Details</a></li>
+              </ul>
+            <button class="angle-down-btn">
+              <a href="#" class="sub-navigation">Courses <i class="fa fa-angle-down"></i></a>
+            </button>
+              <ul class="sub-nav">
+                <li><a href="">Course</a></li>
+                <li><a href="">Course List</a></li>
+                <li><a href="">Course Details</a></li>
+              </ul>
+            <button class="angle-down-btn"><a href="#" class="sub-navigation"></a>Events <i class="fa fa-angle-down"></i></a></button>
+            <button class="angle-down-btn"><a href="#" class="sub-navigation"></a>Pages <i class="fa fa-angle-down"></i></a></button>
+            <button class="angle-down-btn"><a href="#" class="sub-navigation"></a>Blog <i class="fa fa-angle-down"></i></a></button>
+            <button class="angle-down-btn"><a href="#" class="sub-navigation"></a>Contact <i class="fa fa-angle-down"></i></a></button>
+          </div>
         </nav>
       
 
@@ -52,12 +50,11 @@
           <div class="header-soc-media">
           <!-- odkazy na facebook a youtube -->
           <div class="facebook">
-            <a href="https://www.facebook.com">
-            <img src="icon/facebook.png" alt="facebook logo"></a>
+            <a href="https://www.facebook.com" <i class="fa fa-facebook"></i></a>
           </div>
 
           <div class="youtube">
-            <a href="https://www.youtube.com/"> YouTube</a>
+            <a href="https://www.youtube.com/"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
           </div>
           
           <div class="sign-in">
@@ -71,28 +68,26 @@
 
         </nav>
         <h4>• • • Welcome To EduPlus</h4>
-        <h1>More than 1200 Online Courses</h1>
+        <h1>More than 1200 <br>Online Courses</h1>
 
         <div class="search-bar">
-        <input class="search" id="search_courses" name="search_course" placeholder="Search Courses">
-        <i class="angle-down"></i>
-        <button> <i class="angle-down"></i> </button>
+          <input class="search" id="search_courses" name="search_course" placeholder="Search Courses">
+          <i class="fa fa-angle-down"></i>
+          <button class="submit"> <i class="fa fa-search"></i> </button>
         </div>
-
 
         <div class="support">
-        <p>Sed ut perspiciatis unde omnis<br> natus error sit voluptatem</p>
-        <div class="support-contac">
-          <img src="icon/24_7.png" alt="">
-          <p>Online support <a href="tel:+012(345)6789"><b>+012 (345) 6789</b></a></p>
-
-        </div>
+          <p>Sed ut perspiciatis unde omnis<br> natus error sit voluptatem</p>
+          <div class="support-contac">
+            <img src="icon/24_7.png" alt="">
+            <p>Online support <a href="tel:+012(345)6789"><b>+012 (345) 6789</b></a></p>
+          </div>
         </div>
     </div>
     </header>
 
     <main>
-      <!---->>
+      <!---->
       <div class="home-boxes">
         <div class="home-boxes-describe">
           
@@ -629,17 +624,17 @@
           <img src="icon/white-hat.png" alt="" width="35px">
           <span><b>Edu</b>Plus</span>
 
-          <div class="footer_soc facebook">
-            <i class="fab fa-facebook-f"></i> Facebook
+          <div class="footer-facebook">
+            <a href="https://www.facebook.com" class="fa fa-facebook">
           </div>
-          <div class="footer_soc twitter">
-            <i class="fab fa-twitter"></i> Twitter
+          <div class="footer-twitter">
+            <a href="https://www.twitter.com/"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
           </div>
-          <div class="footer_soc youtube">
-            <i class="fab fa-youtube"></i> Youtube
+          <div class="youtube">
+            <a href="https://www.youtube.com/"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
           </div>
-          <div class="footer_soc instagram">
-            <i class="fab fa-instagram"></i> Instagram
+          <div class="footer-instagram">
+            <a href="https://www.instagram.com/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
           </div>
         </div>
       
