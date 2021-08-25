@@ -1,5 +1,5 @@
 * {
-  color: rgba(0, 0, 0, 0.774);
+  color: #3e3e3e;
   position: relative;
   text-decoration: none;
 }
@@ -8,7 +8,7 @@ body {
   min-width: 20rem;
   position: relative;
   overflow-y: scroll;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   font-style: normal;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
@@ -30,9 +30,9 @@ b, body, em, form, h1, h2, h3, h4, h5, h6, hr, i, label, li, ol, p, strong, ul {
   box-sizing: border-box;
 }
 
-div {
+/*div {
   display: block;
-}
+}*/
 
 *, :after, :before {
   box-sizing: border-box;
@@ -41,37 +41,71 @@ div {
 /*---HOME HEADER----------*/
 header {
   background-color: #eaf4f7;
-  padding-bottom: 200px;
+  padding-bottom: 15.625rem;
+  justify-content: space-between;
+  
+  display: flex;
 }
 
-ul {
+ul, li {
   list-style-type: none;
   text-align: left;
 }
 
 .navigation {
   display: flex;
-  text-align: inherit;
+  padding-top: 0.525rem;
 }
 
 .header-soc-media {
   display: flex;
+
 }
 
-.header-menu {
-  display: inherit;
-  text-align: center;
+/**/
+.dropdown-content + .dropdown-content-url{
+  position: relative;
+  display: inline-block;
+}
+/*dropdown box*/
+.dropdown-extensive-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: white;
+  min-width: 150px;
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  /*z-index: 1;*/
+  border-top: 4px solid #ea5822;
 }
 
-.angle-down-btn {
-  display: flex;
-  color: (0, 0, 0, 0.774);
+.dropdown-extensive-content a {
+  color: inherit;
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown-extensive-content a:hover {
+  background-color: #ea5822;
+  color: #ffffff;
+}
+
+.dropdown-content:hover .dropdown-extensive-content {
+  display: block;
+}
+
+.dropdown-btn {
   border: none;
-  outline: none;
   background-color: inherit;
-  font-family: inherit;
-  font-size: 0.725rem;
+  font-weight: bold;
+}
 
+.dropdown-content:hover .dropdown-btn {
+  color: #ea5822;
+}
+
+.dropdown-content-url:hover .dropdown-btn {
+  color: #ea5822;
 }
 
 h1 {
@@ -86,7 +120,7 @@ h3 {}
 h4 {
   font-size: inherit;
   text-align: inherit;
-  color: rgba(238, 94, 11, 0.836);
+  color: rgba(248, 123, 7, 0.623);
   top: 1.25rem;
 }
 
@@ -98,12 +132,10 @@ h4 {
 
 .home-hat >a {
   text-align: center;
-  padding: auto;
 }
 
 .home-rel-adress {
-  font-size: 40px;
-  text-align: center;
+  font-size: 3rem;
   margin: auto;
 }
 
@@ -112,16 +144,16 @@ h4 {
 }
 
 .search-bar {
-  background-color: whitesmoke;
+  background-color: white;
   border: none;
 
 }
 .search {
-  background-color: whitesmoke;
+  background-color: white;
   border: none;
   padding: 18px 150px;
 }
-
+/*   SEARCHING BUTTON WITH  MAGNIFYING GLASS */
 .submit {
   border: none;
   padding: 14px 14px;
@@ -133,7 +165,7 @@ h4 {
 }
 
 .fa-search {
-  color: whitesmoke;
+  color: white;
 }
 
 .support {
@@ -150,7 +182,7 @@ h4 {
 }
 
 .home-boxes-describe {
-  background-color: whitesmoke;
+  background-color: white;
   box-shadow: 0px 8px 16px 0px #0000000c;;
   padding: auto;
   width: 150px;
@@ -177,4 +209,29 @@ h4 {
 .col-weig-4{
   display: flex;
   flex-wrap: wrap;
+}
+
+/* HEADER IMAGE*/
+
+.header-image{
+  background-image: url("../Image/people-build.jpeg");
+  padding-bottom: 16.625rem;
+  min-width: 20rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  position: relative;
+  
+}
+
+.header-top-h1 >h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+@media (max-width: 50em) {
+  .extensive_navigation {flex-direction: column;}
+  .extensive_navigation i{visibility: hidden;}
+  .extensive_dropdown_menu {overflow: visible;}
 }
